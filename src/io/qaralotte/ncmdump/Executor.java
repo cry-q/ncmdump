@@ -14,6 +14,7 @@ public class Executor {
                 File ncm_f = new File(arg);
                 Dump dump = new Dump(ncm_f);
                 dump.execute();
+                System.out.println("1");
             }
         }
     }
